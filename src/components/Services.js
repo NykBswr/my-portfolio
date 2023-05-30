@@ -6,28 +6,33 @@ import { fadeIn } from '../variants';
 const services = [
   {
     name: 'Surat Menyurat FTMM',
-    description: "Our team is creating a user-friendly letter-writing website for Airlangga University Advanced Technology and Multidiscipline Faculty. Using Laravel, we aim to streamline the process of creating, revising, and sending letters with an intuitive interface for users of varying technical backgrounds. Our expertise will deliver a high-quality website tailored to the faculty community's specific needs.",
+    description: "Simplified letter-writing website for Advanced Technology and Multidiscipline Faculty. using Laravel. User-friendly interface, high-quality, tailored to faculty needs.",
     link: 'Learn more',
+    learn: 'Learn more',
   },
   {
     name: 'Sunrise Jeep Tour',
-    description: "We developed a React.js website for Sunrise Jeep Tour, a family-owned business offering guided Jeep tours through Mount Batur in Bali. Our user-friendly website provides comprehensive tour information, highlighting the adventure's essence and inspiring eco-conscious exploration of Bali's natural wonders.",
+    description: "User-friendly React.js website for Sunrise Jeep Tour. Comprehensive eco-conscious tour info, highlighting Bali's natural wonders for an adventurous experience.",
     link: 'Learn more',
+    learn: 'Learn more',
   },
   {
     name: 'Stroke Prediction and Care',
-    description: "Our final project, a stroke prediction API accessible via our website, achieves 81% accuracy using a trained model. Medical professionals can input patient data to aid in early detection and decision-making, improving patient care. The system seamlessly integrates the model as a pickle file for prompt and appropriate medical attention.",
+    description: "81% accurate stroke prediction API via website. Medical professionals input patient data for early detection, prompt care. Seamless model integration for appropriate attention.",
     link: 'Learn more',
+    learn: 'Learn more',
   },
   {
     name: 'Analisis Kebahagiaan Negara di Dunia',
     description: "Using Python and SPSS, we conducted nonparametric analysis on the 2019 World Happiness Report, demonstrating my proficiency in statistical analysis.",
     link: 'Learn more',
+    learn: 'Learn more',
   },
   {
     name: 'Analisis Kebahagiaan Negara di Dunia',
-    description: "Using R Shiny, we analyzed factors influencing Gojek app expenditure among Indonesian students. Our findings reveal strong correlations with UKT and residence types, offering valuable insights for enhancing services.",
+    description: "R Shiny analysis of Gojek expenses among Indonesian students. Strong correlations found with UKT and residence types. Insightful for service enhancement.",
     link: 'Learn more',
+    learn: 'Learn more',
   },
 ];
 
@@ -46,7 +51,7 @@ const Services = () => {
           <motion.div variants={fadeIn('left', 0.5)} initial='hidden' whileInView={'show'} viewport={{ once: false, amout: 0.3 }} className='flex-1'>
             <div>
               {services.map((service, index) => {
-                const { name, description, link } = service;
+                const { name, description, link, learn } = service;
                 return (
                   <div className='border-b border-white/20 h-[147px] mb-[38px] flex' key={index}>
                     <div className='max-w-[476px]'>
@@ -61,7 +66,7 @@ const Services = () => {
                       <a href='#' className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
                         <BsArrowUpRight />
                       </a>
-                      <a href='#' className='text-gradient text-sm'>{link}</a>
+                      <a href='{link}' className='text-gradient text-sm'>{learn}</a>
                     </div>
                   </div>
                 );
