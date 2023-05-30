@@ -28,8 +28,11 @@ const About = () => {
             className='flex-1'
           >
             <h2 className='h2 text-accent'>About me.</h2>
-            <h3 className='h3 mb-4 text-dark dark:text-white'>I'm a Data Science Technology Student at Airlangga University</h3>
-            <p className='mb-6 text-dark dark:text-white'>Lorem</p>
+            <h3 className='h3 mb-4 text-dark dark:text-white'>I am a dedicated Data Science Technology student</h3>
+            <p className='mb-6 text-dark dark:text-white'> at the Faculty of Advanced Technology and Multidiscipline, Airlangga University.
+With strong interpersonal skills and a diligent work ethic, I thrive in collaborative environments. I have built a solid foundation of skills
+through my university courses and my high school years, which includes proficiency in various computer technologies. I am enthusiastic
+about making meaningful contributions to the field of data science</p>
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
