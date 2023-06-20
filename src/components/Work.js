@@ -21,7 +21,7 @@ const Work = () => {
                 Project
               </h2>
               <p className='text-dark dark:text-white max-w-sm mb-16'>
-                Lorem
+                This project has been my undertaking throughout my entire academic journey at the university.
               </p>
               <button className='btn btn-sm'>View all projects</button>
             </div>
