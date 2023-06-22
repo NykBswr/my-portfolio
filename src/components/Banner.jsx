@@ -32,8 +32,15 @@ const Banner = () => {
               Eager to make impactful contributions in the field of data science, I possess proficiency in diverse computer technologies.
             </motion.p>
             <motion.div variants={fadeIn('up', 0.7)} initial='hidden' whileInView={'show'} viewport={{ once: false, amout: 0.8 }} className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-              <button className='btn btn-lg'>Contact me</button>
-              <a href='#' className='text-gradient btn-link'>
+              <button className='btn btn-lg'>
+                <a href="#contact" 
+                activeClass='active'
+                smooth={true} 
+                spy={true}>
+                  Contact me
+                </a>
+              </button>
+              <a href='/' className='text-gradient btn-link'>
                 My Portfolio
               </a>
             </motion.div>

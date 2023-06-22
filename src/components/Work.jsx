@@ -4,9 +4,9 @@ import { motion } from 'framer-motion'
 // variants
 import { fadeIn } from '../variants'
 // img
-import Img1 from '../assets/StrokePred-1.png'
-import Img2 from '../assets/sunrice-1.png'
-import Img3 from '../assets/suratftmm-4.png'
+import Img1 from '../assets/penilaiankurikulum-1.svg'
+import Img2 from '../assets/suratftmm-4.png'
+import Img3 from '../assets/sunrice-1.png'
 
 const Work = () => {
   return (
@@ -23,7 +23,14 @@ const Work = () => {
               <p className='text-dark dark:text-white max-w-sm mb-16'>
                 This project has been my undertaking throughout my entire academic journey at the university.
               </p>
-              <button className='btn btn-sm'>View all projects</button>
+              <button className='btn btn-sm'>
+                <a href="/project" 
+                activeClass='active'
+                smooth={true} 
+                spy={true}>
+                  View all projects
+                </a>
+              </button>
             </div>
             {/* images */}
             <div className='group relative overflow-hidden border-2 border-accent/50 dark:border-white/50 rounded-xl'>
@@ -33,11 +40,11 @@ const Work = () => {
               <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt='' />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>Front-End</span>
+                <span className='text-gradient'>Back-End</span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Stroke Prediction & Care</span>
+                <span className='text-3xl text-white'>Penilaian Kurikulum FTMM</span>
               </div>
             </div>
           </motion.div>
@@ -50,11 +57,11 @@ const Work = () => {
               <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt='' />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>Front-End</span>
+                <span className='text-gradient'>Full Stack Developer</span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Sunrise Jeep Tour</span>
+                <span className='text-3xl text-white'>Surat Menyurat FTMM</span>
               </div>
             </div>
             <div className='group relative overflow-hidden border-2 border-accent/50 dark:border-white/50 rounded-xl'>
@@ -64,11 +71,11 @@ const Work = () => {
               <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt='' />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>Full Stack Developer</span>
+                <span className='text-gradient'>Front-End</span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Surat Menyurat FTMM</span>
+                <span className='text-3xl text-white'>Sunrise Jeep Tour</span>
               </div>
             </div>
           </motion.div>

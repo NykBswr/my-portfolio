@@ -81,7 +81,6 @@
 }
 
 /* Dark Mode */
-
 /* Gradient colors */
 @layer utilities {
   .gradient-1 {
@@ -142,7 +141,6 @@
   display: inline-block;
   transform-style: preserve-3d;
   perspective: 500px;
-  animation: toggle__animation 3s infinite;
 }
 
 .dir{
@@ -229,3 +227,52 @@
   }
 }
 
+
+/* Swiper */
+.swiper-pagination{
+  display: flex;
+  justify-content: center;
+}
+.swiper-pagination-bullet {
+  margin: 1.5rem;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #fff;
+  border: 2px solid #ff99fd;
+  @apply gradient-1 gradient-2 gradient-3;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ff99fd;
+  @apply gradient-1 gradient-2 gradient-3;
+}
+
+@media (max-width: 485px) {
+    .swiper-pagination-bullet {
+      margin: 0.2rem;
+      width: 15px;
+      height: 15px;
+    }
+}
+
+/* Hamburger */
+
+.hamburger-line {
+  @apply w-[30px] h-[2px] my-2 block bg-dark dark:bg-white;
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45;
+}

@@ -10,7 +10,7 @@ const Header = () => {
     <header className={`py-8 ${isDarkMode ? 'dark' : ''}`}>
       <div className="container mx-auto">
         <div className="flex justify-between">
-          <a href="#">
+          <a href="/">
             {isDarkMode ? (
               <img src={ LogoDark } alt="Logo" />
             ) : (
@@ -23,7 +23,7 @@ const Header = () => {
               Light
             </span>
             <label htmlFor="dark-toggle">
-              <div className={`switch ${isDarkMode ? 'dark' : ''}`}>
+              <div className={`dir switch ${isDarkMode ? 'dark' : ''}`}>
                 <input
                   type="checkbox"
                   className="hidden"
