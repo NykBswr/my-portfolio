@@ -32,7 +32,7 @@ const project = [
     {
         name: 'Statistical Analysis of Poverty in Indonesia During 2015-2018 for Finding Solution in Suistainable Development Goals Using Python Programming Language',
         description: "For my final project, I utilized Python and Excel to analyze the poverty rate in Indonesia from 2015-2018. Through data visualization using pie charts and histograms, I found that the poverty rate decreased each year. The average interval estimation between 2015 and 2018 did not show significant differences, while the variance interval estimation showed a significant difference. Using hypothesis testing, I concluded that there was no significant decrease in poverty rate when comparing 2015 and 2018 using proportion interval. Lastly, from the two-sample hypothesis testing, I failed to reject the null hypothesis on poverty rate being over 11.2631% with 95% confidence level.",
-        link: '/pdfs/STATISTICAL ANALYSIS OF POVERTY IN INDONESIA DURING 2015-2018 FOR FINDING SOLUTION IN SUISTAINABLE DEVELOPMENT GOALS USING PYTHON PROGRAMMING LANGUAGE.pdf',
+        link: '/pdfs/STATISTICAL ANALYSIS.pdf',
         learn: 'Learn more',
     },
 ];
