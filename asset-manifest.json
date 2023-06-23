@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.2da9b54c.css",
-    "main.js": "/my-portfolio/static/js/main.c718910d.js",
+    "main.js": "/my-portfolio/static/js/main.f1420712.js",
     "static/media/avatar.svg": "/my-portfolio/static/media/avatar.add0966d1d63e70b7e86c104beeaa9f1.svg",
     "static/media/penilaiankurikulum-8.svg": "/my-portfolio/static/media/penilaiankurikulum-8.27125aade8b1533953b75f6224bfb33b.svg",
     "static/media/penilaiankurikulum-9.svg": "/my-portfolio/static/media/penilaiankurikulum-9.4c75c972c31254dd191f0a8bf80a3e5e.svg",
@@ -39,10 +39,10 @@
     "static/media/logo-light.svg": "/my-portfolio/static/media/logo-light.556c1e671e291b686a0862d37b1bff93.svg",
     "index.html": "/my-portfolio/index.html",
     "main.2da9b54c.css.map": "/my-portfolio/static/css/main.2da9b54c.css.map",
-    "main.c718910d.js.map": "/my-portfolio/static/js/main.c718910d.js.map"
+    "main.f1420712.js.map": "/my-portfolio/static/js/main.f1420712.js.map"
   },
   "entrypoints": [
     "static/css/main.2da9b54c.css",
-    "static/js/main.c718910d.js"
+    "static/js/main.f1420712.js"
   ]
 }
