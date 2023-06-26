@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.2da9b54c.css",
-    "main.js": "/my-portfolio/static/js/main.8604e59c.js",
+    "main.css": "/my-portfolio/static/css/main.5e013df3.css",
+    "main.js": "/my-portfolio/static/js/main.ef6fe29c.js",
     "static/media/penilaiankurikulum-8.svg": "/my-portfolio/static/media/penilaiankurikulum-8.27125aade8b1533953b75f6224bfb33b.svg",
     "static/media/penilaiankurikulum-9.svg": "/my-portfolio/static/media/penilaiankurikulum-9.4c75c972c31254dd191f0a8bf80a3e5e.svg",
     "static/media/penilaiankurikulum-1.svg": "/my-portfolio/static/media/penilaiankurikulum-1.b2d9d28186a9e2a6598d624e5e86a4e4.svg",
@@ -37,11 +37,11 @@
     "static/media/pagination.less": "/my-portfolio/static/media/pagination.3b113a6c3a8dd0e8d889.less",
     "static/media/logo-light.svg": "/my-portfolio/static/media/logo-light.556c1e671e291b686a0862d37b1bff93.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.2da9b54c.css.map": "/my-portfolio/static/css/main.2da9b54c.css.map",
-    "main.8604e59c.js.map": "/my-portfolio/static/js/main.8604e59c.js.map"
+    "main.5e013df3.css.map": "/my-portfolio/static/css/main.5e013df3.css.map",
+    "main.ef6fe29c.js.map": "/my-portfolio/static/js/main.ef6fe29c.js.map"
   },
   "entrypoints": [
-    "static/css/main.2da9b54c.css",
-    "static/js/main.8604e59c.js"
+    "static/css/main.5e013df3.css",
+    "static/js/main.ef6fe29c.js"
   ]
 }
